@@ -1,5 +1,6 @@
-package creational;
+package creational.singleton;
 
+import creational.singleton.Stack;
 import org.junit.Assert;
 import org.junit.Test;
 
