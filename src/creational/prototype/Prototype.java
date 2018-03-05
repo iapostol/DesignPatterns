@@ -1,13 +1,6 @@
 package creational.prototype;
 
-public abstract class Prototype implements Cloneable {
+public interface Prototype extends Cloneable {
 
-    public String getName()
-    {
-        return "";
-    }
-
-    public Prototype clone() throws CloneNotSupportedException {
-        return (Prototype) super.clone();
-    }
+    Prototype clone() throws CloneNotSupportedException;
 }

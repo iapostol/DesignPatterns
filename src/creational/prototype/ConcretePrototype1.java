@@ -1,13 +1,12 @@
 package creational.prototype;
 
-public class ConcretePrototype1 extends Prototype {
+public class ConcretePrototype1 implements Prototype {
 
     @Override
     public Prototype clone() throws CloneNotSupportedException {
-        return super.clone();
+        return (ConcretePrototype1)super.clone();
     }
 
-    @Override
     public String getName() {
         return "CP1";
     }
