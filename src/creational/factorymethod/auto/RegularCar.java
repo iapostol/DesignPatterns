@@ -1,4 +1,9 @@
 package creational.factorymethod.auto;
 
-public class RegularCar extends Vehicle {
+public class RegularCar implements Vehicle {
+
+    @Override
+    public void setSpeed() {
+
+    }
 }
