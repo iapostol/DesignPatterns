@@ -1,9 +1,4 @@
-package creational.abstractfactory;
-
-import creational.abstractfactory.furniture.Chair;
-import creational.abstractfactory.furniture.CofeeTable;
-import creational.abstractfactory.furniture.FurnitureFactory;
-import creational.abstractfactory.furniture.Sofa;
+package creational.abstractfactory.furniture;
 
 public class ArtDecoFactory implements FurnitureFactory {
     @Override

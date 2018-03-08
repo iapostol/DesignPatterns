@@ -1,4 +1,4 @@
-package creational.abstractfactory;
+package creational.abstractfactory.furniture;
 
 import creational.abstractfactory.furniture.CofeeTable;
 

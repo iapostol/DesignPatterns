@@ -1,5 +1,6 @@
 package creational.abstractfactory;
 
+import creational.abstractfactory.furniture.ArtDecoFactory;
 import creational.abstractfactory.furniture.IKEAFactory;
 import org.junit.Assert;
 import org.junit.Before;
