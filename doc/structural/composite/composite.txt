@@ -1,0 +1,9 @@
+- Intent
+Composite is a structural design pattern that lets you compose objects into tree structures and allow clients to work with these structures as if they were individual objects.
+
+Applicability
+Use the Composite pattern when
+• you want to represent part-whole hierarchies of objects.
+• you want clients to be able to ignore the difference between compositions of
+objects and individual objects.
+Clients will treat all objects in the composite structure uniformly.
