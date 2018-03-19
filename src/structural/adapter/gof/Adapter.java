@@ -9,7 +9,7 @@ public class Adapter implements Target {
     }
 
     @Override
-    public void Request() {
+    public void request() {
         adaptee.specialRequest();
     }
 }
