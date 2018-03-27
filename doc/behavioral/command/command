@@ -1,0 +1,6 @@
+- Intent
+Encapsulate a request as an object, thereby letting you parameterize clients with
+different requests, queue or log requests, and support undoable operations.
+
+Command is a behavioral design pattern that lets you turn a request into stand-alone object,
+which can be used to parametrize objects with different requests, queue or log requests, and support undoable operations.
