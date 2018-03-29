@@ -1,14 +1,13 @@
 package behavioral.command.gof;
 
-public class Invoker {
+public class Caller {
     private Command command;
 
+    public Caller(Command command) {
+        this.command = command;
+    }
     public void executeCommand()
     {
         command.execute();
-    }
-
-    public void setCommand(Command command) {
-        this.command = command;
     }
 }
