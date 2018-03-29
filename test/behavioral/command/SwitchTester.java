@@ -6,13 +6,27 @@ import org.junit.Test;
 public class SwitchTester {
 
     @Test
-    public void testTurnOn() {
+    public void turnOnThenUndo() {
 
         Switchable lamp = new Light();
 
-        Command cmd = new TurnOnCommand(lamp);
+        Command turnOn = new TurnOnCommand(lamp);
 
-        Switch s = new Switch(cmd);
+        Switch s = new Switch(turnOn);
+
+        s.executeCommand();
+
+        s.undoExecuteCommand();
+    }
+
+    @Test
+    public void turnOffThenUndo() {
+
+        Switchable lamp = new Light();
+
+        Command turnOn = new TurnOnCommand(lamp);
+
+        Switch s = new Switch(turnOn);
 
         s.executeCommand();
 
