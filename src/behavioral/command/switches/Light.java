@@ -1,15 +1,13 @@
 package behavioral.command.switches;
 
-import behavioral.command.switches.Switchable;
-
 public class Light implements Switchable {
     @Override
     public void turnOn() {
-        System.out.println("Turn on");
+        System.out.println("Turn on light");
     }
 
     @Override
-    public void turnOf() {
-        System.out.println("Turn off");
+    public void turnOff() {
+        System.out.println("Turn off light");
     }
 }

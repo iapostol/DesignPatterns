@@ -11,4 +11,8 @@ public class Switch {
     public void executeCommand(){
         command.execute();
     }
+
+    public void undoExecuteCommand(){
+        command.undo();
+    }
 }

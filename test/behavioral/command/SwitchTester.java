@@ -15,5 +15,7 @@ public class SwitchTester {
         Switch s = new Switch(cmd);
 
         s.executeCommand();
+
+        s.undoExecuteCommand();
     }
 }
