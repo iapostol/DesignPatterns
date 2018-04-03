@@ -1,9 +1,9 @@
-package behavioral.chain_of_responsibility;
+package behavioral.chainofresponsibility;
 
-import behavioral.chain_of_responsibility.gof.ConcreteHandler1;
-import behavioral.chain_of_responsibility.gof.ConcreteHandler2;
-import behavioral.chain_of_responsibility.gof.ConcreteHandler3;
-import behavioral.chain_of_responsibility.gof.Handler;
+import behavioral.chainofresponsibility.gof.ConcreteHandler1;
+import behavioral.chainofresponsibility.gof.ConcreteHandler2;
+import behavioral.chainofresponsibility.gof.ConcreteHandler3;
+import behavioral.chainofresponsibility.gof.Handler;
 import org.junit.Test;
 
 public class GofChainOfResponsibility {

@@ -1,4 +1,4 @@
-package behavioral.chain_of_responsibility.gof;
+package behavioral.chainofresponsibility.gof;
 
 public class ConcreteHandler2 extends Handler {
     @Override

@@ -1,4 +1,4 @@
-package behavioral.chain_of_responsibility.logger;
+package behavioral.chainofresponsibility.logger;
 
 public class FileLogger extends AbstractLogger {
     public FileLogger(int level){

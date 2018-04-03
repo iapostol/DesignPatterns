@@ -1,4 +1,4 @@
-package behavioral.template_method;
+package behavioral.templatemethod;
 
 abstract class AbstractClass
 

@@ -1,4 +1,4 @@
-package behavioral.chain_of_responsibility.logger;
+package behavioral.chainofresponsibility.logger;
 
 public abstract class AbstractLogger {
     public static int INFO = 1;

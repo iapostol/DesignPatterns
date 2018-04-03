@@ -1,9 +1,9 @@
-package behavioral.chain_of_responsibility.gof;
+package behavioral.chainofresponsibility.gof;
 
-public class ConcreteHandler1 extends Handler {
+public class ConcreteHandler3 extends Handler {
     @Override
     public void handleRequest(int request) {
-        if (request >= 0 && request < 10)
+        if (request >= 20 && request < 30)
         {
             System.out.println(String.format("%s handled request %d",this.getClass().getSimpleName().toString(), request));
         }

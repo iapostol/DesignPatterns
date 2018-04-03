@@ -1,9 +1,9 @@
-package behavioral.chain_of_responsibility;
+package behavioral.chainofresponsibility;
 
-import behavioral.chain_of_responsibility.logger.AbstractLogger;
-import behavioral.chain_of_responsibility.logger.ConsoleLogger;
-import behavioral.chain_of_responsibility.logger.ErrorLogger;
-import behavioral.chain_of_responsibility.logger.FileLogger;
+import behavioral.chainofresponsibility.logger.AbstractLogger;
+import behavioral.chainofresponsibility.logger.ConsoleLogger;
+import behavioral.chainofresponsibility.logger.ErrorLogger;
+import behavioral.chainofresponsibility.logger.FileLogger;
 import org.junit.Test;
 
 public class ChainOfResponsibilityTest {
