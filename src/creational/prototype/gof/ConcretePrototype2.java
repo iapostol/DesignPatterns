@@ -1,4 +1,4 @@
-package creational.prototype;
+package creational.prototype.gof;
 
 public class ConcretePrototype2 implements Prototype  {
 

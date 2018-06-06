@@ -1,9 +1,11 @@
 package creational.prototype;
 
+import creational.prototype.gof.ConcretePrototype1;
+import creational.prototype.gof.ConcretePrototype2;
 import org.junit.Assert;
 import org.junit.Test;
 
-public class PrototypeTest {
+public class GofPrototypeTest {
 
     @Test
     public void testConcretePrototype1() throws CloneNotSupportedException {
