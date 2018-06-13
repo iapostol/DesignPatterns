@@ -7,7 +7,7 @@ import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 
-public class FactoryMethodTest {
+public class VehicleFactoryMethodTest {
 
     VehicleFactory hondaFactory;
     VehicleFactory ferrariFactory;
