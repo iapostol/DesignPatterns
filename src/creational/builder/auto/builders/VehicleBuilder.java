@@ -1,8 +1,9 @@
-package creational.builder.auto;
+package creational.builder.auto.builders;
+
+import creational.builder.auto.vehicles.Vehicle;
 
 public interface VehicleBuilder {
     VehicleBuilder setEngine(String engine);
     VehicleBuilder setModel(String model);
-    VehicleBuilder setWheels(int wheels);
-    Vehicle Build();
+    Vehicle build();
 }

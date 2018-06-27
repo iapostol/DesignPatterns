@@ -1,14 +1,12 @@
-package creational.builder.auto;
+package creational.builder.auto.vehicles;
 
-public class Vehicle {
+public abstract class Vehicle {
     private String engine;
     private String model;
-    private int wheels;
 
-    public Vehicle(String engine, String model,int wheels){
+    public Vehicle(String engine, String model){
         this.engine = engine;
         this.model = model;
-        this.wheels = wheels;
     }
 
     public String getEngine() {
@@ -19,7 +17,6 @@ public class Vehicle {
         return model;
     }
 
-    public int getWheels() {
-        return wheels;
-    }
+
+
 }

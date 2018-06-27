@@ -1,35 +1,36 @@
 package creational.builder;
 
-import creational.builder.auto.BikeBuilder;
-import creational.builder.auto.SportCarBuilder;
-import creational.builder.auto.RegularCarBuilder;
-import creational.builder.auto.ProductionLine;
+import creational.builder.auto.builders.BikeBuilder;
+import creational.builder.auto.builders.BoatBuilder;
+import creational.builder.auto.builders.CarBuilder;
+import creational.builder.auto.director.LandVehiclesProductionLine;
+import creational.builder.auto.director.WaterVehiclesProductionLine;
 import org.junit.Assert;
 import org.junit.Test;
 
 public class VehicleBuilderTest {
 
     @Test
-    public void buildRegularCar()
+    public void buildCar()
     {
-        ProductionLine prod = new ProductionLine(new RegularCarBuilder());
+        LandVehiclesProductionLine prod = new LandVehiclesProductionLine(new CarBuilder());
 
-        Assert.assertEquals("140hp", prod.BuildRegularCar().getEngine());
-    }
-
-    @Test
-    public void buildSportCar()
-    {
-        ProductionLine prod = new ProductionLine(new SportCarBuilder());
-
-        Assert.assertEquals("500hp", prod.BuildSportCar().getEngine());
+        Assert.assertEquals("500hp", prod.buildCar().getEngine());
     }
 
     @Test
     public void buildBike()
     {
-        ProductionLine prod = new ProductionLine(new BikeBuilder());
+        LandVehiclesProductionLine prod = new LandVehiclesProductionLine(new BikeBuilder());
 
-        Assert.assertEquals("80hp", prod.BuildBike().getEngine());
+        Assert.assertEquals("80hp", prod.buildBike().getEngine());
+    }
+
+    @Test
+    public void buildBoat()
+    {
+        WaterVehiclesProductionLine prod = new WaterVehiclesProductionLine(new BoatBuilder());
+
+        Assert.assertEquals("80hp", prod.buildBoat().getEngine());
     }
 }
