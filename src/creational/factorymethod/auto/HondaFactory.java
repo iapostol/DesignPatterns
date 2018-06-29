@@ -5,10 +5,10 @@ public class HondaFactory implements VehicleFactory {
     public Vehicle create(String type) {
 
         switch (type){
-            case "Regular":
-                return new RegularCar();
-            case "Sport":
-                return new SportCar();
+            case "Car":
+                return new Car();
+            case "Bike":
+                return new Bike();
         }
 
         return null;

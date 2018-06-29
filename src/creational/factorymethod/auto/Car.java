@@ -1,6 +1,6 @@
 package creational.factorymethod.auto;
 
-public class SportCar implements Vehicle {
+public class Car implements Vehicle {
 
     @Override
     public void setSpeed() {

@@ -20,22 +20,22 @@ public class VehicleFactoryMethodTest {
     }
 
     @Test
-    public void createHondaRegularCar() {
-        Assert.assertEquals("RegularCar", hondaFactory.create("Regular").getClass().getSimpleName());
+    public void createHondaCar() {
+        Assert.assertEquals("Car", hondaFactory.create("Car").getClass().getSimpleName());
     }
 
     @Test
-    public void createHondaSportCar() {
-        Assert.assertEquals("SportCar", hondaFactory.create("Sport").getClass().getSimpleName());
+    public void createHondaBike() {
+        Assert.assertEquals("Bike", hondaFactory.create("Bike").getClass().getSimpleName());
     }
 
     @Test
-    public void createFerrariRegularCar() {
-        Assert.assertEquals("RegularCar", ferrariFactory.create("Regular").getClass().getSimpleName());
+    public void createFerrariCar() {
+        Assert.assertEquals("Car", ferrariFactory.create("Car").getClass().getSimpleName());
     }
 
     @Test
-    public void createFerrariSportCar() {
-        Assert.assertEquals("SportCar", ferrariFactory.create("Sport").getClass().getSimpleName());
+    public void createFerrariBike() {
+        Assert.assertEquals("Bike", ferrariFactory.create("Bike").getClass().getSimpleName());
     }
 }
