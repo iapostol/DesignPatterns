@@ -6,7 +6,7 @@ import structural.decorator.car.Car;
 import structural.decorator.car.LuxuryCar;
 import structural.decorator.car.SportsCar;
 
-public class DecoratorTest {
+public class CarDecoratorTest {
 
     @Test
     public void name() {
