@@ -10,6 +10,6 @@ public class LuxuryCar extends CarDecorator {
     public void assemble() {
         super.assemble();
 
-        System.out.print(" Adding features of Luxury Car.");
+        System.out.print("Adding features of Luxury Car.");
     }
 }
