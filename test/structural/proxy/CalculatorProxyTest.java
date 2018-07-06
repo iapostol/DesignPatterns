@@ -4,7 +4,7 @@ import org.junit.Assert;
 import org.junit.Test;
 import structural.proxy.calculator.MathProxy;
 
-public class ProxyTest {
+public class CalculatorProxyTest {
 
     @Test
     public void test() {
@@ -14,7 +14,7 @@ public class ProxyTest {
 
         // Do the math
         Assert.assertEquals(6, proxy.add(4, 2),0);
-        Assert.assertEquals(2, proxy.substract(4, 2),0);
+        Assert.assertEquals(2, proxy.subtract(4, 2),0);
         Assert.assertEquals(8, proxy.multiply(4, 2),0);
         Assert.assertEquals(2,proxy.divide(4, 2),0);
     }

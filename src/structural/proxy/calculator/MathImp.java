@@ -7,7 +7,7 @@ public class MathImp implements Math {
     }
 
     @Override
-    public double substract(double x, double y) {
+    public double subtract(double x, double y) {
         return x - y;
     }
 

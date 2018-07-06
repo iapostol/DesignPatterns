@@ -14,8 +14,8 @@ public class MathProxy implements Math {
     }
 
     @Override
-    public double substract(double x, double y) {
-        return math.substract(x,y);
+    public double subtract(double x, double y) {
+        return math.subtract(x,y);
     }
 
     @Override
