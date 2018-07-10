@@ -6,7 +6,7 @@ import behavioral.chainofresponsibility.logger.ErrorLogger;
 import behavioral.chainofresponsibility.logger.FileLogger;
 import org.junit.Test;
 
-public class ChainOfResponsibilityTest {
+public class LoggerChainOfResponsibilityTest {
 
     @Test
     public void test() {
