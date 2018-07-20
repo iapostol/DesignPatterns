@@ -2,7 +2,7 @@ package behavioral.command.notepad;
 
 import java.util.ArrayList;
 
-//receiver
+//receivers
 public class Document {
 
     private ArrayList<String> textArray = new ArrayList<String>();

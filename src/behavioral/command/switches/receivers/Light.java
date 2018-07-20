@@ -1,4 +1,4 @@
-package behavioral.command.switches;
+package behavioral.command.switches.receivers;
 
 public class Light implements Switchable {
     @Override

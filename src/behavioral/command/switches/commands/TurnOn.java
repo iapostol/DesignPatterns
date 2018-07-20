@@ -1,10 +1,12 @@
-package behavioral.command.switches;
+package behavioral.command.switches.commands;
 
-public class TurnOnCommand implements Command {
+import behavioral.command.switches.receivers.Switchable;
+
+public class TurnOn implements Command {
 
     private Switchable switchable;
 
-    public TurnOnCommand(Switchable switchable) {
+    public TurnOn(Switchable switchable) {
         this.switchable = switchable;
     }
 

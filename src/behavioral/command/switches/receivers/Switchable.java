@@ -1,4 +1,4 @@
-package behavioral.command.switches;
+package behavioral.command.switches.receivers;
 
 public interface Switchable {
     void turnOn();

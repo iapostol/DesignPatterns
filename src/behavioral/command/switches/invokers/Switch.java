@@ -1,4 +1,6 @@
-package behavioral.command.switches;
+package behavioral.command.switches.invokers;
+
+import behavioral.command.switches.commands.Command;
 
 public class Switch {
 
