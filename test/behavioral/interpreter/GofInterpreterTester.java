@@ -1,11 +1,15 @@
 package behavioral.interpreter;
 
+import behavioral.interpreter.gof.AbstractExpression;
+import behavioral.interpreter.gof.Context;
+import behavioral.interpreter.gof.NonTerminalExpression;
+import behavioral.interpreter.gof.TerminalExpression;
 import org.junit.Test;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class InterpreterTester {
+public class GofInterpreterTester {
     @Test
     public void test() {
         Context context = new Context();

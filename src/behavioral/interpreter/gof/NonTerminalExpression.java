@@ -1,4 +1,4 @@
-package behavioral.interpreter;
+package behavioral.interpreter.gof;
 
 public class NonTerminalExpression extends AbstractExpression {
     @Override
