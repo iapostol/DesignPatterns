@@ -1,4 +1,4 @@
-package behavioral.iterator;
+package behavioral.iterator.gof;
 
 public interface Iterator {
     Object first();

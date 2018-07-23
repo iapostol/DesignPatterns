@@ -1,8 +1,10 @@
 package behavioral.iterator;
 
+import behavioral.iterator.gof.ConcreteAggregate;
+import behavioral.iterator.gof.Iterator;
 import org.junit.Test;
 
-public class IteratorTester {
+public class GofIteratorTester {
 
     @Test
     public void test() {

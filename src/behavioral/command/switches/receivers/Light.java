@@ -1,5 +1,6 @@
 package behavioral.command.switches.receivers;
 
+//concrete receiver
 public class Light implements Switchable {
     @Override
     public void turnOn() {
