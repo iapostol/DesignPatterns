@@ -15,30 +15,33 @@ public class NotificationIterator implements Iterator {
 
     @Override
     public boolean hasNext() {
-        if (pos >= notificationList.length ||
-                notificationList[pos] == null)
-            return false;
-        else
-            return true;
+        return pos < notificationList.length - 1 && notificationList[pos] != null;
+    }
+
+    @Override
+    public boolean hasPrevious() {
+        return pos > 0 && notificationList[pos] != null;
     }
 
     @Override
     public Object next() {
-        return notificationList[pos++];
+        return notificationList[++pos];
     }
 
     @Override
     public Object previous() {
-        return notificationList[pos--];
+        return notificationList[--pos];
     }
 
     @Override
     public Object first() {
-        return notificationList[0];
+        pos = 0;
+        return notificationList[pos];
     }
 
     @Override
     public Object last() {
-        return notificationList[notificationList.length-1];
+        pos = notificationList.length-1;
+        return notificationList[pos];
     }
 }

@@ -1,7 +1,6 @@
 package behavioral.iterator.notifications.collections;
 
 import behavioral.iterator.notifications.Notification;
-import behavioral.iterator.notifications.collections.Collection;
 import behavioral.iterator.notifications.iterators.Iterator;
 import behavioral.iterator.notifications.iterators.NotificationIterator;
 
@@ -17,7 +16,6 @@ public class NotificationCollection implements Collection {
     {
         notificationList = new Notification[MAX_ITEMS];
 
-        // Let us add some dummy notifications
         addItem("Notification 1");
         addItem("Notification 2");
         addItem("Notification 3");
@@ -30,13 +28,12 @@ public class NotificationCollection implements Collection {
     {
         Notification notification = new Notification(str);
 
-        if (numberOfItems >= MAX_ITEMS)
+        if (numberOfItems >= MAX_ITEMS) {
             System.err.println("Full");
-        else
-        {
-            notificationList[numberOfItems] = notification;
-            numberOfItems = numberOfItems + 1;
+            return;
         }
+
+        notificationList[numberOfItems++] = notification;
     }
 
     public Iterator createIterator()

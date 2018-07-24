@@ -8,17 +8,44 @@ import org.junit.Test;
 public class NotificationIteratorTest {
 
     @Test
-    public void test() {
+    public void testNext() {
+
+        System.out.println("---Test Next---");
+
         NotificationCollection notifications = new NotificationCollection();
 
         Iterator iterator = notifications.createIterator();
 
+        Notification n = (Notification) iterator.first();
+
+        System.out.println(n.getNotification());
+
         while (iterator.hasNext())
         {
-            Notification n = (Notification)iterator.next();
+            n = (Notification)iterator.next();
 
             System.out.println(n.getNotification());
         }
+    }
 
+    @Test
+    public void testPrevious() {
+
+        System.out.println("---Test Previous---");
+
+        NotificationCollection notifications = new NotificationCollection();
+
+        Iterator iterator = notifications.createIterator();
+
+        Notification n = (Notification) iterator.last();
+
+        System.out.println(n.getNotification());
+
+        while (iterator.hasPrevious())
+        {
+            n = (Notification)iterator.previous();
+
+            System.out.println(n.getNotification());
+        }
     }
 }
