@@ -1,4 +1,4 @@
-package behavioral.mediator;
+package behavioral.mediator.gof;
 
 public class ConcreteColleague2 extends Colleague {
     public ConcreteColleague2(Mediator mediator) {

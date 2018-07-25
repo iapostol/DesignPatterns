@@ -1,4 +1,4 @@
-package behavioral.mediator;
+package behavioral.mediator.gof;
 
 public class ConcreteMediator1 implements Mediator {
 

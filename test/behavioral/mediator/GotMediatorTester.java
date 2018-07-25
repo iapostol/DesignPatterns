@@ -1,8 +1,11 @@
 package behavioral.mediator;
 
+import behavioral.mediator.gof.ConcreteColleague1;
+import behavioral.mediator.gof.ConcreteColleague2;
+import behavioral.mediator.gof.ConcreteMediator1;
 import org.junit.Test;
 
-public class MediatorTester {
+public class GotMediatorTester {
 
     @Test
     public void test() {

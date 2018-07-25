@@ -1,4 +1,4 @@
-package behavioral.mediator;
+package behavioral.mediator.gof;
 
 public abstract class Colleague {
     protected Mediator mediator;
