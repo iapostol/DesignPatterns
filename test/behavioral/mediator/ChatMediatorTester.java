@@ -13,10 +13,17 @@ public class ChatMediatorTester {
 
         ChatMediator mediator = new MessengerMediator();
 
-        User user1 = new Human(mediator, "John");
-        User user2 = new Human(mediator, "Lisa");
-        User user3 = new Human(mediator, "Anne");
-        User user4 = new Human(mediator, "David");
+        User user1 = new Human(mediator);
+        user1.setName("John");
+
+        User user2 = new Human(mediator);
+        user2.setName("Lisa");
+
+        User user3 = new Human(mediator);
+        user3.setName("Anne");
+
+        User user4 = new Human(mediator);
+        user4.setName("David");
 
         mediator.addUser(user1);
         mediator.addUser(user2);

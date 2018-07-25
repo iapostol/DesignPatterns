@@ -10,7 +10,7 @@ public class MessengerMediator implements ChatMediator {
     private List<User> users;
 
     public MessengerMediator(){
-        this.users=new ArrayList<>();
+        this.users = new ArrayList<>();
     }
 
     @Override
@@ -20,12 +20,9 @@ public class MessengerMediator implements ChatMediator {
 
     @Override
     public void sendMessage(String msg, User user) {
-        for(User u : this.users){
-            //message should not be received by the user sending it
-            if(u != user){
+        for(User u : this.users)
+            if(u != user)
                 u.receive(msg);
-            }
-        }
     }
 
 }
