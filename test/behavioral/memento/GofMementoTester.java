@@ -1,8 +1,10 @@
 package behavioral.memento;
 
+import behavioral.memento.gof.Caretaker;
+import behavioral.memento.gof.Originator;
 import org.junit.Test;
 
-public class MementoTester {
+public class GofMementoTester {
 
     @Test
     public void test() {

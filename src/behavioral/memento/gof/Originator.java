@@ -1,4 +1,4 @@
-package behavioral.memento;
+package behavioral.memento.gof;
 
 public class Originator {
 

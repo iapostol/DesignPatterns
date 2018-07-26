@@ -1,16 +1,15 @@
-package behavioral.memento;
+package behavioral.memento.users;
 
+public class UserMemory {
+    private Memento memento;
 
-public class Caretaker
-{
     public Memento getMemento() {
         return memento;
     }
 
+
     public void setMemento(Memento memento) {
+
         this.memento = memento;
     }
-
-    private Memento memento;
-
 }
