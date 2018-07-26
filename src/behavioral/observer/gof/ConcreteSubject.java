@@ -1,4 +1,4 @@
-package behavioral.observer;
+package behavioral.observer.gof;
 
 public class ConcreteSubject extends Subject {
 
