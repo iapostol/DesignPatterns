@@ -1,8 +1,10 @@
 package behavioral.state;
 
+import behavioral.state.gof.ConcreteStateA;
+import behavioral.state.gof.Context;
 import org.junit.Test;
 
-public class StateTester {
+public class GofStateTester {
     @Test
     public void test(){
 
