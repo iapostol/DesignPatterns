@@ -8,11 +8,14 @@ public class ClockObserverTester {
     @Test
     public void testClockObserver() {
 
+        //subject
         Clock clock = new Clock();
 
+        //observer
         RealTimeDisplay phoneDisplay = new RealTimeDisplay(clock);
         phoneDisplay.setName("PhoneDisplay");
 
+        //observer
         RealTimeDisplay wallDisplay = new RealTimeDisplay(clock);
         wallDisplay.setName("WallDisplay");
 
