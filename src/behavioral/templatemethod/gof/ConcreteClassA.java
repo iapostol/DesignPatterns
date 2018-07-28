@@ -1,4 +1,4 @@
-package behavioral.templatemethod;
+package behavioral.templatemethod.gof;
 
 public class ConcreteClassA extends AbstractClass {
     @Override

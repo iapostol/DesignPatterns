@@ -1,8 +1,11 @@
 package behavioral.templatemethod;
 
+import behavioral.templatemethod.gof.AbstractClass;
+import behavioral.templatemethod.gof.ConcreteClassA;
+import behavioral.templatemethod.gof.ConcreteClassB;
 import org.junit.Test;
 
-public class TemplateMethodTester {
+public class GofTemplateMethodTester {
     @Test
     public void test() {
         AbstractClass aA = new ConcreteClassA();

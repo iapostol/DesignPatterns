@@ -1,6 +1,6 @@
-package behavioral.templatemethod;
+package behavioral.templatemethod.gof;
 
-abstract class AbstractClass
+public abstract class AbstractClass
 
 {
     public abstract void primitiveOperation1();
