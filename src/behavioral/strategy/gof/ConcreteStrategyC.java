@@ -1,4 +1,4 @@
-package behavioral.strategy;
+package behavioral.strategy.gof;
 
 public class ConcreteStrategyC implements Strategy {
     @Override

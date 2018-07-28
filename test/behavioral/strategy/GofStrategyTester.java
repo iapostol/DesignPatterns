@@ -1,8 +1,12 @@
 package behavioral.strategy;
 
+import behavioral.strategy.gof.ConcreteStrategyA;
+import behavioral.strategy.gof.ConcreteStrategyB;
+import behavioral.strategy.gof.ConcreteStrategyC;
+import behavioral.strategy.gof.Context;
 import org.junit.Test;
 
-public class StrategyTester {
+public class GofStrategyTester {
     @Test
     public void test() {
         Context context;

@@ -1,4 +1,4 @@
-package behavioral.strategy;
+package behavioral.strategy.gof;
 
 public interface Strategy {
     void algorithmInterface();

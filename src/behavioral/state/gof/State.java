@@ -1,4 +1,4 @@
-package behavioral.state;
+package behavioral.state.gof;
 
 public interface State {
     void handle(Context context);
