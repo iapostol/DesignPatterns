@@ -1,4 +1,4 @@
-package behavioral.visitor;
+package behavioral.visitor.gof;
 
 public class ConcreteVisitor1 implements Visitor {
     @Override

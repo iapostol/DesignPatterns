@@ -1,4 +1,4 @@
-package behavioral.visitor;
+package behavioral.visitor.gof;
 
 public interface Visitor {
     void visitorConcreteElementA(ConcreteElementA concreteElementA);

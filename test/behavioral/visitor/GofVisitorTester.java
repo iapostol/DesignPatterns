@@ -1,8 +1,9 @@
 package behavioral.visitor;
 
+import behavioral.visitor.gof.*;
 import org.junit.Test;
 
-public class VisitorTester {
+public class GofVisitorTester {
     @Test
     public void test() {
         // Setup structure
