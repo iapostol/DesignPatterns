@@ -13,17 +13,26 @@ public class ClockObserverTester {
 
         //observer
         RealTimeDisplay phoneDisplay = new RealTimeDisplay(clock);
+
         phoneDisplay.setName("PhoneDisplay");
 
         //observer
         RealTimeDisplay wallDisplay = new RealTimeDisplay(clock);
+
         wallDisplay.setName("WallDisplay");
 
-        clock.register(phoneDisplay);
-        clock.register(wallDisplay);
+        clock.subscribe(phoneDisplay);
+
+        clock.subscribe(wallDisplay);
 
         clock.setTime("12:00");
 
-        clock.inform();
+        clock.notifyObservers();
+
+        clock.unsubscribe(phoneDisplay);
+
+        clock.setTime("14:00");
+
+        clock.notifyObservers();
     }
 }

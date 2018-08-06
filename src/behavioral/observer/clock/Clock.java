@@ -9,11 +9,17 @@ public class Clock implements Subject {
 
     private String time;
 
-    public void register(Observer observer) {
+    @Override
+    public void subscribe(Observer observer) {
         observers.add(observer);
     }
 
-    public void inform() {
+    @Override
+    public void unsubscribe(Observer observer) {
+        observers.remove(observer);
+    }
+
+    public void notifyObservers() {
         for(Observer o : observers)
             o.update();
     }
