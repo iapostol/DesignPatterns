@@ -1,4 +1,4 @@
 package creational.abstractfactory.vehicle;
 
-public class HondaBike implements Bike {
+public class RegularBike implements Bike {
 }

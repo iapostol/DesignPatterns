@@ -1,4 +1,4 @@
 package creational.abstractfactory.vehicle;
 
-public class FordCar implements Car {
+public class SportCar implements Car {
 }

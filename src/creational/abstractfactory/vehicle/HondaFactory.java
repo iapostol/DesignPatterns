@@ -5,11 +5,11 @@ public class HondaFactory implements VehicleFactory {
 
     @Override
     public Bike createBike() {
-        return new HondaBike();
+        return new SportBike();
     }
 
     @Override
     public Car createCar() {
-        return new HondaCar();
+        return new SportCar();
     }
 }
