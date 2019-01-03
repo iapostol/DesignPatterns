@@ -12,7 +12,7 @@ public class GofBuilderTest {
     {
         DirectorBuilder director = new DirectorBuilder(new ConcreteBuilder1());
 
-        director.Construct();
+        director.construct();
 
         Assert.assertNotNull(director.getProduct());
     }

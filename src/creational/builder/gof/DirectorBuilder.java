@@ -8,7 +8,7 @@ public class DirectorBuilder {
         this.builder = builder;
     }
 
-    public void Construct() {
+    public void construct() {
         this.builder.BuildPart();
     }
 
