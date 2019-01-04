@@ -1,13 +1,28 @@
 package creational.prototype.shape;
 
-public class Square implements ShapePrototype {
+public class Square extends Shape {
 
-    @Override
-    public ShapePrototype clone() throws CloneNotSupportedException {
-        return (Square)super.clone();
+    private int radius;
+
+    public Square() {
     }
 
-    public String getName(){
-        return "square";
+    public double calculateAria() {
+        return Math.PI * radius * radius;
+    }
+
+    public Square(Square square) {
+        super(square);
+
+        this.radius = square.radius;
+    }
+
+    public Shape copy() {
+        return new Square(this);
+    }
+
+
+    public void setRadius(int r) {
+        radius = r;
     }
 }
