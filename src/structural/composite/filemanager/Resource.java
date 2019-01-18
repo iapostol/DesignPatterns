@@ -9,7 +9,4 @@ public abstract class Resource {
     }
 
     public abstract void show(int depth);
-    public abstract void add(Resource r);
-    public abstract void remove(Resource r);
-
 }

@@ -1,7 +1,5 @@
 package structural.composite.filemanager;
 
-import structural.composite.gof.Component;
-
 import java.util.ArrayList;
 import java.util.List;
 
@@ -22,12 +20,10 @@ public class Directory extends Resource {
         }
     }
 
-    @Override
     public void add(Resource r) {
         includedResources.add(r);
     }
 
-    @Override
     public void remove(Resource r) {
         includedResources.remove(r);
     }
