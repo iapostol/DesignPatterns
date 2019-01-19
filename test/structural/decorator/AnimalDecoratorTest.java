@@ -4,6 +4,7 @@ import org.junit.Test;
 import structural.decorator.animal.Animal;
 import structural.decorator.animal.Cat;
 import structural.decorator.animal.Dog;
+import structural.decorator.animal.RoboCat;
 
 public class AnimalDecoratorTest {
     @Test
@@ -14,7 +15,7 @@ public class AnimalDecoratorTest {
         Animal cat = new Cat();
         cat.eat();
 
-        Animal roboCat = new RoboCat(cat);
+        Animal roboCat = new RoboCat(null);
         roboCat.eat();
     }
 }

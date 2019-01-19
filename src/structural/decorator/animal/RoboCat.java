@@ -1,4 +1,4 @@
-package structural.decorator;
+package structural.decorator.animal;
 
 import structural.decorator.animal.Animal;
 import structural.decorator.animal.AnimalDecorator;
