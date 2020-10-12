@@ -15,7 +15,7 @@ public class AnimalDecoratorTest {
         Animal cat = new Cat();
         cat.eat();
 
-        Animal roboCat = new RoboCat(null);
+        Animal roboCat = new RoboCat(new Cat());
         roboCat.eat();
     }
 }
